@@ -1858,6 +1858,37 @@ html[dir="rtl"] .footer-accordion.active:after {
     max-width: 100px;
   }
 }
+/*                                 arrow-top                           */
+.arrow-top {
+  position: fixed;
+  bottom: 50px;
+  inset-inline-start: 30px;
+  display: none;
+  z-index: 10;
+  text-decoration: none !important;
+}
+.arrow-top i {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: var(--main-hover);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.arrow-top i:hover {
+  background-color: var(--main-color);
+}
+@media (max-width: 767px) {
+  .arrow-top {
+    bottom: 40px;
+    inset-inline-start: 10px;
+  }
+}
 /*overlay*/
 .overlay-box,
 .overlay-box2 {

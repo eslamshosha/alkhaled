@@ -271,4 +271,22 @@ $(document).ready(function () {
       .siblings(".nav-foot")
       .css("padding-top", "0");
   });
+  //////////** fixed arrow to top**//////////
+  $(".arrow-top").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: 0,
+      },
+      1500
+    );
+  });
+  $(this).scrollTop() >= 500
+    ? $(".arrow-top").fadeIn(300)
+    : $(".arrow-top").fadeOut(300);
+
+  $(window).scroll(function () {
+    $(this).scrollTop() >= 500
+      ? $(".arrow-top").fadeIn(300)
+      : $(".arrow-top").fadeOut(300);
+  });
 });
