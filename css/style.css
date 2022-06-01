@@ -704,8 +704,8 @@ html[dir="rtl"] .add-to .dropdown-content {
   transition: all 0.3s ease-in-out;
 }
 .category-box:hover img {
-  -webkit-transform: scale(1.05);
-  transform: scale(1.05);
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
 }
 .category-section .swiper-pagination {
   position: relative;
