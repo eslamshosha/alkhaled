@@ -10,7 +10,7 @@ $(document).ready(function () {
     e.preventDefault();
     $(".overlay-box").fadeToggle(300);
     $(".search-section").toggleClass("search-open");
-    $(".fixed-search .open-search").toggleClass("close-search");
+    // $(".fixed-search .open-search").toggleClass("close-search");
     $("body").toggleClass("overflow");
   });
 
