@@ -1722,10 +1722,10 @@ html[dir="rtl"] .footer-accordion.active:after {
     display: block;
   }
   .header-icons .add-to .dropdown-content {
-    left: 30%;
+    left: 50%;
   }
   html[dir="rtl"] .add-to .dropdown-content {
-    left: 70%;
+    left: 50%;
   }
   .lang-section .dropdown-content {
     left: 70%;
