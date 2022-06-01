@@ -28,12 +28,22 @@ $(document).ready(function () {
       $("body").removeClass("overflow");
     });
     //dropdown inside menu
-    $(".lang-word, .chevron-down").click(function (e) {
+    $(".lang-word").click(function (e) {
       e.preventDefault();
       var item = $(this).siblings(".dropdown-content");
       item.slideToggle(400);
     });
+    //slide down menu
+    $(".btn-div").click(function (e) {
+      e.preventDefault();
+      $(this).siblings(".cats-dispaly").slideToggle(400);
+      $(".btn-div").not(this).siblings(".cats-dispaly").slideUp(400);
+      if ($(window).width() <= 1199) {
+        $(this).toggleClass("active");
+      }
+    });
   }
+  $(" .add-chevron").addClass("chevron-down");
   //fixed nav
   $stickyNav = $("header");
   $(window).on("scroll load", function () {
