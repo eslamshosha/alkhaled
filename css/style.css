@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffffff;
-  padding-top: 144px;
+  padding-top: 140px;
 }
 @media (max-width: 991px) {
   body {
@@ -313,7 +313,7 @@ nav li {
   align-items: center;
   justify-content: center;
   margin: 0;
-  padding: 15px;
+  padding: 8px 0;
 }
 nav figure {
   margin: 0;
@@ -1934,6 +1934,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   }
 }
 .cats-dispaly {
+  border-radius: 12px;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -1942,13 +1943,14 @@ html[dir="rtl"] .footer-accordion.active:after {
   opacity: 0;
   visibility: hidden;
   width: max-content;
+  max-width: 160px;
   background-color: #fff;
   color: var(--sec-color);
   display: flex;
   justify-content: space-between;
   text-align: center;
   border: none;
-  padding: 15px;
+  padding: 15px 0;
   transition: all 0.3s ease-in-out;
 }
 
@@ -2036,6 +2038,7 @@ html[dir="rtl"] .cats-dispaly li {
     visibility: visible;
     transition: none;
     box-shadow: none;
+    border-radius: none;
   }
   html[dir="rtl"] .cats-dispaly {
     box-shadow: none;
