@@ -1951,6 +1951,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   visibility: hidden;
   width: max-content;
   min-width: 120px;
+  max-width: 200px;
   background-color: #fff;
   color: var(--sec-color);
   display: flex;
@@ -1992,12 +1993,13 @@ html[dir="rtl"] .footer-accordion.active:after {
 .cats-dispaly .cat-li,
 html[dir="rtl"] .cats-dispaly li {
   margin: 0;
+  padding: 5px 0;
 }
 .top-header .cats-dispaly .cat-li a,
 .cats-dispaly .cat-li a {
   color: var(--sec-color);
   text-decoration: none;
-  line-height: 34px;
+  line-height: 23px;
   display: block;
   font-weight: 400;
   font-size: 14px;
@@ -2037,7 +2039,7 @@ html[dir="rtl"] .cats-dispaly li {
     max-width: 100%;
   }
   .cats-dispaly .cat-li a {
-    line-height: 36px;
+    line-height: 23px;
   }
   .cats-dispaly {
     position: static;
