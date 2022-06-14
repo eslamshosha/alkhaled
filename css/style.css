@@ -89,16 +89,16 @@ a {
   color: rgba(255, 255, 255, 100);
   background-image: linear-gradient(
     135deg,
-    var(--main-color),
-    var(--red-color)
+    #ec543a,
+    #f6d45c
   );
   /* border-radius: 4px 4px 4px 4px; */
 }
 html[dir="ltr"] .progress-bar {
   background-image: linear-gradient(
     135deg,
-    var(--red-color),
-    var(--main-color)
+    #f6d45c,
+    #ec543a
   );
 }
 @keyframes progress {
