@@ -255,7 +255,7 @@ nav {
   display: none;
 }
 .top-header .logo-sm img {
-  max-width: 80px;
+  max-width: 60px;
   image-rendering: -webkit-optimize-contrast;
 }
 .fixed-logo {
@@ -907,7 +907,7 @@ html[dir="ltr"] .slider-background {
   transition: all 0.3s ease-in-out;
 }
 .add-to-btn:hover {
-  background-color: var(--main-color);
+  background-color: var(--red-color);
   color: var(--white-color);
 }
 .product-section .add-to-fav {
@@ -924,7 +924,7 @@ html[dir="ltr"] .slider-background {
   transition: all 0.3s ease-in-out;
 }
 .product-section .add-to-fav:hover {
-  background-color: var(--main-color);
+  background-color: #3bada2;
   color: var(--white-color);
 }
 @media (max-width: 991px) {
@@ -1344,7 +1344,7 @@ html[dir="rtl"] .nav-foot-li .nav-foot-link:hover {
   background-color: var(--white-color);
   width: 100%;
   height: 40px;
-  border-radius: 0;
+  border-radius: 20px;
   padding: 0 20px;
   font-size: 12px;
   font-weight: 400;
@@ -1365,7 +1365,7 @@ html[dir="rtl"] .nav-foot-li .nav-foot-link:hover {
   color: #fff;
   font-weight: 700;
   border: none;
-  border-radius: 0;
+  border-radius: 16px;
   width: 87px;
   height: 32px;
   background-color: #3bada2;
@@ -1887,7 +1887,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: var(--main-hover);
+  background-color: #00000052;
   font-size: 20px;
   color: #fff;
   cursor: pointer;
@@ -1949,7 +1949,7 @@ html[dir="rtl"] .footer-accordion.active:after {
   opacity: 0;
   visibility: hidden;
   width: max-content;
-  max-width: 160px;
+  min-width: 120px;
   background-color: #fff;
   color: var(--sec-color);
   display: flex;
@@ -2033,6 +2033,7 @@ html[dir="rtl"] .cats-dispaly li {
     padding: 0;
     height: unset;
     justify-content: flex-start;
+    max-width: 100%;
   }
   .cats-dispaly .cat-li a {
     line-height: 36px;
